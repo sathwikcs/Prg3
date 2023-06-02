@@ -35,8 +35,7 @@ public class MainActivity extends AppCompatActivity {
                 String password = passwordEditText.getText().toString().trim();
 
                 if (username.equals("sann") && isPasswordValid(password)) {
-                    // Correct credentials, navigate to the login activity
-                    // Replace 'MainActivity' with the desired activity to navigate to
+
                     Intent it = new Intent(getBaseContext(), LoginActivity.class);
                     startActivity(it);
 
